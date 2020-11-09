@@ -37,12 +37,12 @@ Se você não fez nenhuma alteração desde o último commit (por exemplo, se vo
 26. Listei todos os branchs locais e remotos para ver se todos os branchs locais foram criados remoto. Para isso, utilizei o comando git branch -a
 27. Após realizar um clone de um diretório remoto, aprendi a veriricar se todos os arquivos foram baixados corretamente, para isso, utilizei o comando git pull
 28. Peguei atualizações dos branchs do servidor remoto utilizando o comando git pull origin nome-do-branch-remoto
-29. Criei tag no repositório local utilizando o padrão de versionamento semântico, para isso, utilizei comando git tag 0.1.0 (0: MAJOR, 1: MINOR, 0: PATCH)
+29. Criei tag no repositório local utilizando o padrão de versionamento semântico, para isso, utilizei comando git tag 0.1.0 -m "Mensagem explicativa sobre a versão" (0: MAJOR, 1: MINOR, 0: PATCH)
 30. Fiz push para enviar para o repositório remoto as tags que criei localmente, para isso, utilizei o comando git push origin master --tags
 31. Listei todas as tags que criei no local com o comando git tag -l
 32. Exclui no repositório local uma tag que criei por erro de digitação, utilizei o comando git tag -d 0.0.1 (onde 0.0.1 é a tag que eu excluí)
 33. Exclui no repositório remoto a tag que exclui localmente (descrita acima). Utilizei o comando git push origin :refs/tags/0.0.1 (onde 0.0.1 é a tag que eu excluí)
-34. Fiz atualizações no projeto e gerei a tag da versão 0.1.1, utilizei o comando git tag 0.1.1 (onde 0.1.1 é o código da versão)
+34. Fiz atualizações no projeto e gerei a tag da versão 0.1.1, utilizei o comando git tag 0.1.1 -m "Mensagem explicativa sobre a versão" (onde 0.1.1 é o código da versão)
 35. Fiz um push da nova tag para o repositório remoto utilizando o comando git push origin master --tags
 
 
