@@ -33,7 +33,7 @@ Se você não fez nenhuma alteração desde o último commit (por exemplo, se vo
 22. Configurei o GITHUB. Gerei uma chave privada utilizando o comando ssh-keygen, adicionei essa chave na minha conta do GITHUB para não ter que ficar informando usuário e senha sempre que precisar interagir com o servidor remoto.
 23. Fiz push de branchs do servidor local para o GITHUB, utizando o comando git push origin nome-dobranch      
 24. Clonei servidor remoto para o local com o comando git clone url-do-repositorio nome-do-repositorio-local - Sendo opcional o item nome-do-repositorio-local
-25. Listei todos os branchs locais e remotos para ver se todos os branchs locais foram criado remoto. Para isso, utilizei o comando git branch -a
+25. Listei todos os branchs locais e remotos para ver se todos os branchs locais foram criados remoto. Para isso, utilizei o comando git branch -a
 26. Após realizar um clone de um diretório remoto, aprendi a veriricar se todos os arquivos foram baixados corretamente, para isso, utilizei o comando git pull
 27. Peguei atualizações dos branchs do servidor remoto utilizando o comando git pull origin nome-do-branch-remoto
  
