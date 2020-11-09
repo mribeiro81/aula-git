@@ -1,9 +1,9 @@
 SOBRE ESTE DIRETÓRIO
 ====================
 
-# Aqui constam arquivos de teste que criei durante o curso online de Git da escola Code Education => https://code.education
+## Aqui constam arquivos de teste que criei durante o curso online de Git da escola Code Education => https://code.education
 
-## Durante o curso aprendi:
+### Durante o curso aprendi:
 1. A instalar o git
 2. Configurar o git com os meus dados de acesso e prefências, usando o comando git config --global user.[name, email] e git config --global core.editor nome-editor (para escolher o editor padão para trabalhar com o git)
 3. Verificar as minhas configurações no git, com o comando git config --list
